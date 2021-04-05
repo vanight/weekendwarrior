@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'weekendwarrior';
+  defaultElevation = 2;
+  raisedElevation = 8;
+
+  name = 'Angular';
 }
