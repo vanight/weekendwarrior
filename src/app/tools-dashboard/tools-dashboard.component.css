@@ -18,4 +18,16 @@
 
 .dashboard-card-content {
   text-align: center;
+  margin-top: 20px;
+  font-size:12pt;
+  font-family: fantasy;
+}
+
+.center {
+  display: block;
+  width: auto;
+  max-height: 250px;
+  margin: auto;
+  object-fit: contain;
+  width: 90%;
 }

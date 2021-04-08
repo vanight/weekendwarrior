@@ -13,10 +13,10 @@ export class ToolsDashboardComponent {
     map(({ matches }) => {
 
       return [
-        { title: 'Card 1', cols: 1, rows: 1, image: "https://images.pexels.com/photos/162534/grinder-hitachi-power-tool-flexible-162534.jpeg?auto=compress" },
-        { title: 'Card 2', cols: 1, rows: 1, image: "https://images.pexels.com/photos/162534/grinder-hitachi-power-tool-flexible-162534.jpeg?auto=compress" },
-        { title: 'Card 3', cols: 1, rows: 1, image: "https://images.pexels.com/photos/162534/grinder-hitachi-power-tool-flexible-162534.jpeg?auto=compress" },
-        { title: 'Card 4', cols: 1, rows: 1, image: "https://images.pexels.com/photos/162534/grinder-hitachi-power-tool-flexible-162534.jpeg?auto=compress" }
+        { title: 'Miter Saw', cols: 1, rows: 1, image: "https://images-na.ssl-images-amazon.com/images/I/71TPrh4okNL._AC_SL1500_.jpg", desc: "For small wood working projecsts" },
+        { title: 'Pressure Washer', cols: 1, rows: 1, image: "https://images-na.ssl-images-amazon.com/images/I/91Or5s3f24L._AC_SL1500_.jpg", desc: "Pressure wash your deck"},
+        { title: 'Drill Set', cols: 1, rows: 1, image: "https://images-na.ssl-images-amazon.com/images/I/91WzLZ1qASL._AC_SL1500_.jpg", desc: "Any project would be needed" },
+        { title: 'Edger and Trimmer', cols: 1, rows: 1, image: "https://images-na.ssl-images-amazon.com/images/I/512jaAufjAL._AC_SL1000_.jpg", desc:"Trim your grass, once a year" }
       ];
     })
   );
