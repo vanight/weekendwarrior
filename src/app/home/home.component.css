@@ -15,3 +15,14 @@
   top: 0;
   z-index: 1;
 }
+
+.logo {
+  max-width: 40px;
+}
+
+.title {
+  font-family: fantasy;
+  color: black;
+  font-size: 24pt;
+  margin-left: 5pt;
+}
