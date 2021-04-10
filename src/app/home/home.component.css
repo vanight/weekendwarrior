@@ -18,11 +18,30 @@
 
 .logo {
   max-width: 40px;
+  margin-left: 20px;
 }
 
 .title {
-  font-family: fantasy;
+  font-family: Impact, fantasy;
   color: black;
   font-size: 24pt;
   margin-left: 5pt;
+}
+
+.title-small {
+  font-family: Impact, fantasy;
+  color: black;
+  font-size: 12pt;
+  margin-left: 5pt;
+}
+
+.nav-item {
+  margin: 5pt;
+}
+
+.float_center {
+  float: right;
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
 }

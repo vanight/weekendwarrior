@@ -1,0 +1,14 @@
+.container {
+  padding:10pt;
+  max-width: 800pt;
+}
+
+.icon {
+  width: auto;
+  max-height: 20px;
+  object-fit: contain;
+}
+
+.panel {
+  margin: 10pt;
+}

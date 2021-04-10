@@ -22,6 +22,9 @@ import { HomeComponent } from './home/home.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { ContactComponent } from './contact/contact.component';
+import { PaymentComponent } from './payment/payment.component';
 
 
 @NgModule({
@@ -30,7 +33,9 @@ import { MatListModule } from '@angular/material/list';
     MaterialElevationDirective,
     ToolsTableComponent,
     ToolsDashboardComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +53,8 @@ import { MatListModule } from '@angular/material/list';
     LayoutModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
