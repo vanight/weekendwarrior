@@ -30,3 +30,8 @@
   object-fit: contain;
   width: 90%;
 }
+
+.price {
+  font-style: italic;
+  font-weight: bold;
+}

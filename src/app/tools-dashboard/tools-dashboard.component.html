@@ -10,13 +10,12 @@
               <mat-icon>more_vert</mat-icon>
             </button>
             <mat-menu #menu="matMenu" xPosition="before">
-              <button mat-menu-item>Add to Cart</button>
-              <button mat-menu-item>Like</button>
+              <button mat-menu-item [routerLink]="['/about']" routerLinkActive="router-link-active" >Add to Cart</button>
             </mat-menu>
           </mat-card-title>
         </mat-card-header>
         <ng-container><img [src]="card.image" class="center"></ng-container>
-
+        <div class="price">{{card.price}}</div>
         <mat-card-content class="dashboard-card-content">
           <ng-container>{{card.desc}}</ng-container>
 

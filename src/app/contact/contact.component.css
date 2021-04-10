@@ -1,7 +1,4 @@
-.container {
-  padding:10pt;
-  max-width: 800pt;
-}
+
 
 .icon {
   width: auto;
@@ -14,5 +11,5 @@
 }
 
 .wechat-barcode {
-  max-width: 80vw;
+  max-width: 10000vw;
 }
