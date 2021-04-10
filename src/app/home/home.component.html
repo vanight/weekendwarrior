@@ -1,7 +1,7 @@
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
-    <mat-toolbar class="title-small" routerLink="item">Weekend Warrior</mat-toolbar>
+    <mat-toolbar class="title-small" routerLink="item" matRipple>Weekend Warrior</mat-toolbar>
     <mat-nav-list>
       <ng-container *ngIf="(isHandset$ | async); else elseBlock">
         <a mat-list-item *ngFor="let navLink of navLinks" routerLink="{{navLink.routerName}}" (click)="drawer.toggle()">
@@ -25,7 +25,7 @@
       </button>
       <ng-container class="float_center" >
         <img src="assets/ww-logo.svg" class="logo">
-        <span class="title" routerLink="item"></span>
+        <div class="title" routerLink="item" matRipple>Tool rental</div>
       </ng-container>
     </mat-toolbar>
     <router-outlet></router-outlet>

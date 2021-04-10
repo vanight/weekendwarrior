@@ -49,7 +49,7 @@ export class ToolsDashboardComponent {
           rows: 1,
           image:
             'https://titantool.1scri.be/media/catalog/product/cache/b18383ece3cd1a2211c659793c25b122/0/3/03__impact_440_sk.png',
-          desc: 'Professional paint spayer,',
+          desc: 'Professional paint spayer',
           price: '$50/week',
         },
 

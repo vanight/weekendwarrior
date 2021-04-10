@@ -1,8 +1,8 @@
 <div class="grid-container">
-  <h1 class="mat-h1">Items</h1>
+  <h1 class="mat-h1">Tools list</h1>
   <mat-grid-list cols="2" rowHeight="400px">
     <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
-      <mat-card class="dashboard-card" appMaterialElevation>
+      <mat-card class="dashboard-card" appMaterialElevation matRipple>
         <mat-card-header>
           <mat-card-title>
             {{card.title}}
@@ -10,7 +10,7 @@
               <mat-icon>more_vert</mat-icon>
             </button>
             <mat-menu #menu="matMenu" xPosition="before">
-              <button mat-menu-item [routerLink]="['/about']" routerLinkActive="router-link-active" >Add to Cart</button>
+              <button mat-menu-item [routerLink]="['/about']" routerLinkActive="router-link-active">Add to Cart</button>
             </mat-menu>
           </mat-card-title>
         </mat-card-header>
@@ -18,11 +18,8 @@
         <div class="price">{{card.price}}</div>
         <mat-card-content class="dashboard-card-content">
           <ng-container>{{card.desc}}</ng-container>
-
         </mat-card-content>
-
       </mat-card>
-
     </mat-grid-tile>
   </mat-grid-list>
 </div>
