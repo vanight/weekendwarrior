@@ -25,6 +25,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { ContactComponent } from './contact/contact.component';
 import { PaymentComponent } from './payment/payment.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { PaymentComponent } from './payment/payment.component';
     ToolsDashboardComponent,
     HomeComponent,
     ContactComponent,
-    PaymentComponent
+    PaymentComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

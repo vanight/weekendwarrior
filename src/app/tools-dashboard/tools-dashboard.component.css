@@ -25,7 +25,6 @@
 
 .center {
   display: block;
-  width: auto;
   max-height: 250px;
   margin: auto;
   object-fit: contain;

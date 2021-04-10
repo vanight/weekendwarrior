@@ -16,6 +16,13 @@ export class HomeComponent {
       shareReplay()
     );
 
+  navLinks = [
+    {name:"Tools to rental", routerName:"item", icon:"list"},
+    {name:"Contact", routerName:"contact", icon:"contact_mail"},
+    {name:"Payment", routerName:"payment", icon:"payment"},
+    {name:"About", routerName:"about", icon:"info"},
+  ]
+
   constructor(private breakpointObserver: BreakpointObserver) {}
 
 }
