@@ -25,10 +25,11 @@
 
 .center {
   display: block;
-  max-height: 250px;
+  max-height: 220px;
   margin: auto;
   object-fit: contain;
   width: 90%;
+  height: 90%;
 }
 
 .price {

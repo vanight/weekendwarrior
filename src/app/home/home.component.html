@@ -23,9 +23,9 @@
         *ngIf="isHandset$ | async">
         <mat-icon [ngStyle]="{'color':'black'}" aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <ng-container class="float_center">
+      <ng-container class="float_center" >
         <img src="assets/ww-logo.svg" class="logo">
-        <span class="title">Tool rental</span>
+        <span class="title" routerLink="item"></span>
       </ng-container>
     </mat-toolbar>
     <router-outlet></router-outlet>
