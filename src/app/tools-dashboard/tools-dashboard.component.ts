@@ -17,12 +17,12 @@ export class ToolsDashboardComponent {
       }
       return [
         {
-          title: 'Pressure Washer',
+          title: 'Pressure Washer(gas)',
           cols: cols,
           rows: 1,
           image:
             'https://images-na.ssl-images-amazon.com/images/I/91Or5s3f24L._AC_SL1500_.jpg',
-          desc: 'Pressure wash your deck',
+          desc: 'It is time to Wash your yard or anything',
           price: '$30/week',
         },
         {
@@ -31,7 +31,7 @@ export class ToolsDashboardComponent {
           rows: 1,
           image:
             'https://images-na.ssl-images-amazon.com/images/I/512jaAufjAL._AC_SL1000_.jpg',
-          desc: 'Trim your grass edge',
+          desc: 'Trim your grass edge with just a click',
           price: '$20/week',
         },
         {
