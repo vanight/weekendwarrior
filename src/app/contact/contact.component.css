@@ -12,3 +12,7 @@
 .panel {
   margin: 10pt;
 }
+
+.wechat-barcode {
+  max-width: 80vw;
+}
